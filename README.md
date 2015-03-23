@@ -27,3 +27,8 @@ This basic script has several limitations:
 - The feed URL is hardcoded and cannot be changed without manually editing the source code.
 
 Note that the code is probably not very well secured. 
+
+
+### Contact
+
+Robin Roche - robinroche.com
