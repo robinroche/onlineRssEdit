@@ -9,10 +9,9 @@ None. Feel free to use it as you wish.
 
 ### Code structure
 
-I am currently using an RSS feed to update information on a TV screen at my university. Using a local feed would not be very convenient, so I need a simple way to be able to edit this feed remotely.
-, as we would not have been able to edit the feed remotely.
+We are currently using an RSS feed to update information on a TV screen at our university. Using a local feed would not be  convenient, as we would not have been able to edit the feed remotely, so we needed a simple way to be able to edit this feed remotely
 
-To do that, I developed a very basic PHP script to add/remove entries in a given RSS feed via a webpage.
+To do that, I developed a basic PHP script to add/remove entries in a given RSS feed via a webpage.
 The code contains 4 files:
 - feed.xml, the RSS feed itself;
 - index.php is the webpage where the user can select which entry to remove and what to add;
