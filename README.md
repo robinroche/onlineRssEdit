@@ -7,9 +7,12 @@ This set of PHP files enables editing an RSS feed online.
 None. Feel free to use it as you wish.
 
 
-### Code structure
+### Context
 
 We are currently using an RSS feed to update information on a TV screen at our university. Using a local feed would not be  convenient, as we would not have been able to edit the feed remotely, so we needed a simple way to be able to edit this feed remotely
+
+
+### Code structure
 
 To do that, I developed a basic PHP script to add/remove entries in a given RSS feed via a webpage.
 The code contains 4 files:
@@ -22,7 +25,7 @@ The code contains 4 files:
 ### Limitations
 
 This basic script has several limitations:
-- Access to the webpage should be protected via a login/password, for example using a [http://www.htaccesstools.com/articles/password-protection/](.htaccess) file.
+- Access to the webpage should be protected via a login/password, for example using a [.htaccess](http://www.htaccesstools.com/articles/password-protection/) file.
 - Only entry titles can currently be inserted via the interface (I did not need the rest, but this may be added rather easily).
 - The feed URL is hardcoded and cannot be changed without manually editing the source code.
 
